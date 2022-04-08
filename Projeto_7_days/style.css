@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -8,9 +8,10 @@
 body{
     
     background-color: rgba(255, 255, 255, 1);
-
+    
 }
-header{
+.container-1{
+    margin: auto;
     width: 1440px;
     height: 80px;
     padding: 28px 0 28px 147px;
@@ -66,4 +67,34 @@ nav{
 
     ;
 
+}
+.container-2{
+    margin: 96px auto;
+    text-align: center;
+}
+.sobre-nos{
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(142, 36, 36, 1);
+    margin-bottom: 24px;   
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color:rgba(16, 24, 40, 1);
+    margin-bottom: 36px;
+}
+p{
+    width: 791px;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color:rgba(102, 112, 133, 1);
+    margin: 0 auto 107px;
 }
