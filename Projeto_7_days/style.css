@@ -56,6 +56,7 @@ nav{
 .button-cadastrar{
     width: 112px;
     height: 44px;
+    margin-left: 30px;
     padding: 10px 18px 10px 18px;
     border: none;
     border-radius: 8px;
@@ -142,4 +143,46 @@ h5{
     line-height: 24px;
     color: rgba(102, 112, 133, 1);
 
+}
+.container-4{
+    width: 1440px;
+    height: 1798px;
+    margin: 125px auto;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+
+}
+.vagas-abertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.vagas{ 
+
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(142, 36, 36, 1);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding-top: 4px;
+
+}
+h3{
+    font-weight: 600;
+    font-size:36px;
+    line-height: 44px;
+    color: rgba(16, 24, 40, 1);
+    margin: 16px auto 20px;
+}
+.vagas-paragrafo{
+    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(102, 112, 133, 1);
+    margin-bottom: 64px;
 }
